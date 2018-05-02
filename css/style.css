@@ -8,7 +8,7 @@ body {
 }
 
 h1.sitename {
-  font-size: 2em;
+  font-size: 4em;
   text-align: center;
 }
 
@@ -21,16 +21,28 @@ h1.sitename {
   display: inline-block;
   margin: 1% auto;
   padding: 20px 25px;
-  width: 100%;
+  background-image: url("../images/baku.jpg");
+  width: 400px;
+  height: 310px;
+  background-size: cover;
+  background-position: center;
 }
 
 .baku {
-  background-image: url("images/baku.jpg");
-  background-position: left;
+  background-image: url(../images/baku.jpg);
+}
+.london {
+  background-image: url(../images/london.png);
+}
+.madrid {
+  background-image: url(../images/madrid.jpg);
+}
+.rome {
+  background-image: url(../images/rome.jpg);
 }
 
 @media screen and (min-width: 575px){
-  div.preview {
+  .preview {
     width: 48%;
   }
 
